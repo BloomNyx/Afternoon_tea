@@ -1,0 +1,93 @@
+:root {
+
+  /* =========================
+      FONT
+  ========================= */
+
+  --mainEng-font: "Cormorant Garamond";
+  --mainKor-font: "Pretendard";
+  --mainNum-font: "Pretendard";
+
+
+  /* =========================
+      MAIN COLOR
+  ========================= */
+
+  --mainBg-color: #0f1e18;
+
+  --subBg100: #182720;
+  --subBg200: #22352c;
+  --subBg300: #2d4439;
+  --subBg400: #314d41;
+  --subBg500: #3d5f50;
+
+
+  /* =========================
+      POINT COLOR
+  ========================= */
+
+  --gold100: #f4e7c8;
+  --gold200: #d8bc8c;
+  --gold300: #c2a878;
+  --gold400: #a58a5e;
+
+
+  /* =========================
+      TEXT COLOR
+  ========================= */
+
+  --white: #ffffff;
+
+  --black: #000000;
+  --black100: #111111;
+  --black200: #1f1f1f;
+  --black300: #3b3b3b;
+  --black400: #777777;
+
+  --text-color: #f4efe6;
+  --text-muted: rgba(244, 239, 230, 0.7);
+
+
+  /* =========================
+      BORDER
+  ========================= */
+
+  --border-color: rgba(255, 255, 255, 0.08);
+
+
+  /* =========================
+      FONT STYLE
+  ========================= */
+
+  font-family: var(--mainEng-font), var(--mainKor-font);
+
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+
+  /* =========================
+      RESPONSIVE
+  ========================= */
+
+  @media (max-width: 800px) {
+
+    font-size: 14px;
+    line-height: 1.4;
+
+  }
+
+}
+
+
+body{
+  background-color: var(--mainBg-color);
+  color: var(--text-color);
+}
