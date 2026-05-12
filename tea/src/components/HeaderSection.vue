@@ -5,55 +5,30 @@
     <div class="container">
 
       <!-- LOGO -->
-      <div class="logo">
+      <h1 class="logo">
 
-        <img
-          src="@/assets/imgs/logo.png"
-          alt="tea logo"
-        >
+        <a href="#">
 
-      </div>
+          <img
+            src="@/assets/imgs/logo.png"
+            alt="logo"
+          >
+
+        </a>
+
+      </h1>
 
       <!-- NAV -->
       <nav class="nav">
 
         <ul>
 
-          <li>
-            <a href="#">
-              HOME
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              TEA ENCYCLOPEDIA
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              TEA RECIPE
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              TEA JOURNAL
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              CLASS
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              SHOP
-            </a>
-          </li>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">TEA ENCYCLOPEDIA</a></li>
+          <li><a href="#">TEA RECIPE</a></li>
+          <li><a href="#">TEA JOURNAL</a></li>
+          <li><a href="#">CLASS</a></li>
+          <li><a href="#">SHOP</a></li>
 
         </ul>
 
@@ -73,25 +48,23 @@
 
 .header{
   width:100%;
-  height:100px;
+  height:120px;
 
   position:fixed;
   top:0;
   left:0;
-  z-index:999;
+  z-index:9999;
 
-  backdrop-filter: blur(10px);
+  background:#021510;
 
-  background:rgba(5, 12, 10, .45);
-
-  border-bottom:1px solid rgba(255,255,255,.06);
+  border-bottom:1px solid rgba(194,168,120,.08);
 
   .container{
     width:100%;
     max-width:1600px;
     height:100%;
 
-    padding:0 80px;
+    padding:0 60px;
     margin:0 auto;
 
     display:flex;
@@ -99,21 +72,37 @@
     align-items:center;
   }
 
+
+  /* =========================
+      LOGO
+  ========================= */
+
   .logo{
-    width:72px;
+    width:180px;
+
+    a{
+      display:block;
+      width:100%;
+    }
 
     img{
       width:100%;
+      display:block;
       object-fit:contain;
     }
   }
+
+
+  /* =========================
+      NAV
+  ========================= */
 
   .nav{
 
     ul{
       display:flex;
       align-items:center;
-      gap:60px;
+      gap:56px;
 
       li{
 
@@ -152,9 +141,11 @@
           &:hover::after{
             width:100%;
           }
+
         }
 
       }
+
     }
 
   }
@@ -174,6 +165,10 @@
       padding:0 40px;
     }
 
+    .logo{
+      width:140px;
+    }
+
     .nav{
 
       ul{
@@ -186,6 +181,7 @@
           }
 
         }
+
       }
 
     }
@@ -198,14 +194,14 @@
 @media (max-width:900px){
 
   .header{
-    height:80px;
+    height:90px;
 
     .nav{
       display:none;
     }
 
     .logo{
-      width:60px;
+      width:120px;
     }
 
   }
