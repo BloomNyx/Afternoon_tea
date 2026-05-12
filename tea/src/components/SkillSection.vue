@@ -12,11 +12,11 @@ gsap.registerPlugin(ScrollTrigger);
     IMAGE IMPORT
 ========================= */
 
-// import greenTea from "@/assets/imgs/tea/green.jpg";
-// import blackTea from "@/assets/imgs/tea/black.jpg";
-// import oolongTea from "@/assets/imgs/tea/oolong.jpg";
-// import whiteTea from "@/assets/imgs/tea/white.jpg";
-// import puerTea from "@/assets/imgs/tea/puer.jpg";
+import greenTea from "@/assets/imgs/tea/green.jpg";
+import blackTea from "@/assets/imgs/tea/black.jpg";
+import oolongTea from "@/assets/imgs/tea/oolong.jpg";
+import whiteTea from "@/assets/imgs/tea/white.jpg";
+import puerTea from "@/assets/imgs/tea/puer.jpg";
 
 
 /* =========================
